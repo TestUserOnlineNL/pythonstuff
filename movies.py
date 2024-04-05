@@ -1,24 +1,38 @@
 import re
 
-def searchText(lineText) -> None:
-# get serie title, season number and episodes number and return them in a tuple
+def checkMoviesData(lineText) -> None:
+# get movie title and year and return them in a tuple
     movieData = re.search("^(.+)\s\(([0-9]+)\)$", lineText)
 
     if movieData is None:
+        if(len(lineText.strip())>0):
+            invalidData = ("---invalid---",lineText.strip(),'')
+            return(invalidData)
         pass
     else:
         return(movieData.group(1,2))
+    
+def exportToDelimited():
+    lnv = 0; lni = 0; count = 0;
+    with open(r"./movies_data.txt", 'r') as fp: 
+        with open(r"./movies_data_cleaned.txt", 'w') as f_data_valid:
+            with open(r"./movies_data_invalid.txt", 'w') as f_data_invalid:
+                for line in fp:
+                    result = checkMoviesData(line)
+                    if result != None and result[0] != ("---invalid---"):
+                        lnv = lnv + 1
+                        count = count + 1
+                        newline = str(lnv) + '|' + result[0] + '|' + result[1] + '\n'
+                        f_data_valid.writelines(newline)
+                    elif result != None and result[0] == ("---invalid---"):
+                        count = count + 1
+                        lni = lni + 1
+                        f_data_invalid.writelines(result[0] + " " + result[1] + " ---line: " + str(count) +'\n')
+    return(lnv,lni,count)
 
 if __name__ == '__main__':
-
-    with open(r"./data-collection/movies_data.txt", 'r') as fp:
-        ln = 0
-        with open(r"./@work/movies_data_cleaned.txt", 'w') as fw:
-            for line in fp:
-                result = searchText(line)
-                if result != None:
-                    ln = ln + 1
-                    newline = str(ln) + '|' + result[0] + '|' + result[1] + '\n'
-                    fw.writelines(newline)
-
-    print('\nTotal Lines ' + str(ln))
+    
+    a,b,c = exportToDelimited()
+    print(f"Total valid #{a}")
+    print(f"Total invalid #{b}")
+    print(f"Total lines #{c}")
