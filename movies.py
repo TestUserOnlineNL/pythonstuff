@@ -12,7 +12,7 @@ def checkMoviesData(lineText) -> None:
     else:
         return(movieData.group(1,2))
     
-def exportToDelimited():
+def exportToDelimited() -> None:
     lnv = 0; lni = 0; count = 0;
     with open(r"./movies_data.txt", 'r') as fp: 
         with open(r"./movies_data_cleaned.txt", 'w') as f_data_valid:

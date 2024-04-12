@@ -12,7 +12,7 @@ def checkSeriesData(lineText) -> None:
     else:
         return(seriesData.group(1,3,4))
     
-def exportToDelimited()->None:
+def exportToDelimited() -> None:
     lnv = 0;lni = 0;count = 0
     with open(r"./series_data.txt", 'r') as fp:
         with open(r"./serie_data_cleaned.txt", 'w') as f_data_valid:
