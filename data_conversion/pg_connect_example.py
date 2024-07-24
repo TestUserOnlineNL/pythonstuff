@@ -4,7 +4,7 @@ import psycopg2
 dbname = "Claudia"
 user = "Marc"
 password = "#G3heim123"
-host = "192.168.178.4"
+host = "192.168.178.3"
 port = "5432"
 
 SQL1 = "select count(*) from projects.series_import"
