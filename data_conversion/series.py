@@ -14,9 +14,9 @@ def checkSeriesData(lineText) -> None:
     
 def exportToDelimited() -> None:
     lnv = 0;lni = 0;count = 0
-    with open(r"./series_data.txt", 'r') as fp:
-        with open(r"./serie_data_cleaned.txt", 'w') as f_data_valid:
-            with open(r"./serie_data_invalid.txt", 'w') as f_data_invalid:
+    with open(r"./series_data.txt", 'r', encoding='UTF8') as fp:
+        with open(r"./serie_data_cleaned.txt", 'w', encoding='UTF8') as f_data_valid:
+            with open(r"./serie_data_invalid.txt", 'w', encoding='UTF8') as f_data_invalid:
                 for line in fp:
                     result = checkSeriesData(line)
                     if result != None and result[0] != ("---invalid---"):
