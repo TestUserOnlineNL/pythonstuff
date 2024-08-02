@@ -1,18 +1,17 @@
 import re
 
-def checkSeriesData(lineText) -> None:
+def checkSeriesData(lineText):
     # get serie title, season number and episode number from text input
-    seriesData = re.search("^(.+)\s(season||deel)\s([0-9]+)\s\-\s([0-9]+)\s.+$", lineText)
+    seriesData = re.search(r"^(.+)\s(season||deel)\s([0-9]+)\s\-\s([0-9]+)\s.+$", lineText)
 
     if seriesData is None:
         if(len(lineText.strip())>0):
             invalidData = ("---invalid---",lineText.strip(),'')
             return(invalidData)
-        pass
     else:
         return(seriesData.group(1,3,4))
     
-def exportToDelimited() -> None:
+def exportToDelimited():
     lnv = 0;lni = 0;count = 0
     with open(r"./series_data.txt", 'r', encoding='UTF8') as fp:
         with open(r"./serie_data_cleaned.txt", 'w', encoding='UTF8') as f_data_valid:
@@ -30,9 +29,10 @@ def exportToDelimited() -> None:
         
     return lnv,lni,count
 
-if __name__ == '__main__':
-    a,b,c = exportToDelimited()
 
+if __name__ == '__main__':
+    
+    a,b,c = exportToDelimited()
     print(f"Total valid #{a}")
     print(f"Total invalid #{b}")
     print(f"Total lines #{c}")

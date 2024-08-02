@@ -1,18 +1,20 @@
 import re
 
-def checkMoviesData(lineText) -> None:
+
+def checkMoviesData(lineText):
 # get movie title and year and return them in a tuple
-    movieData = re.search("^(.+)\s\(([0-9]+)\)$", lineText)
+    movieData = re.search(r"^(.+)\s\(([0-9]+)\)$", lineText)
 
     if movieData is None:
         if(len(lineText.strip())>0):
             invalidData = ("---invalid---",lineText.strip(),'')
-            return(invalidData)
-        pass
+        return(invalidData)
     else:
         return(movieData.group(1,2))
-    
-def exportToDelimited() -> None:
+
+
+# filter movie data and save it in a text file
+def exportToDelimited():
     lnv = 0; lni = 0; count = 0;
     with open(r"./movies_data.txt", 'r',encoding='UTF8') as fp: 
         with open(r"./movies_data_cleaned.txt", 'w',encoding='UTF8') as f_data_valid:
@@ -29,6 +31,7 @@ def exportToDelimited() -> None:
                         lni = lni + 1
                         f_data_invalid.writelines(result[0] + " " + result[1] + " ---line: " + str(count) +'\n')
     return(lnv,lni,count)
+
 
 if __name__ == '__main__':
     
