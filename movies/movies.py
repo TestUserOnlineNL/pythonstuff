@@ -51,7 +51,7 @@ with open("movies.csv","w",encoding="UTF8") as csv_movies_file:
         csv_movies_file.writelines(f'{value["id"]},"{value["title"]}",{value["year"]}\n')
 
 
-#export to tab delimited file
+# export to tab delimited file
 with open("movies.tab","w",encoding="UTF8") as csv_movies_file:
     for value in stapel.values():
         csv_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
