@@ -9,16 +9,21 @@ cols = ["id","title","year"]
 
 filename = r"movies_data.txt"
 regex = r"^(.+)\s\(([0-9]+)\)$"
-no = 0
+ln = 0
 collection = []
+
 with open(filename,"r",encoding="UTF8") as data_in:
     for data_line in data_in:
+        ln = ln + 1
         filtered_line = rgx.split(regex, data_line)
         if(len(filtered_line) == 4):
-            no = no + 1
-            line_out = ([no,filtered_line[1],int(filtered_line[2])])
-        collection.append(line_out)
-
+            line_out = ([ln,filtered_line[1],int(filtered_line[2])])
+            collection.append(line_out)
+        else:
+            filtered_line.insert(0,ln)
+            filtered_line[1] = filtered_line[1].strip()
+            filtered_line.insert(2,0)
+            collection.append(filtered_line)
 
 # process data from memory
 
@@ -36,6 +41,17 @@ while r < len(collection):
     r = r + 1
 
 # export to json file
+with open("movies.json","w",encoding="UTF8") as json_movies_file:
+    json.dump(stapel, json_movies_file, indent = 4 )
 
-with open("movies.json","w",encoding="UTF8") as movies_file:
-    json.dump(stapel, movies_file, indent = 4 )
+
+# export to csv file
+with open("movies.csv","w",encoding="UTF8") as csv_movies_file:
+    for value in stapel.values():
+        csv_movies_file.writelines(f'{value["id"]},"{value["title"]}",{value["year"]}\n')
+
+
+#export to tab delimited file
+with open("movies.tab","w",encoding="UTF8") as csv_movies_file:
+    for value in stapel.values():
+        csv_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
