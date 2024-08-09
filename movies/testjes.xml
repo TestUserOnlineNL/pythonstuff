@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personen>
+    <editor role="admin">somebody</editor>
+    <persoon1>
+        <nummer>1</nummer>
+        <voornaam>bugs</voornaam>
+        <achternaam>bunny</achternaam>
+    </persoon1>
+</personen>
