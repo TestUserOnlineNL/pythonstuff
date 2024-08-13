@@ -55,3 +55,10 @@ with open("movies.csv","w",encoding="UTF8") as csv_movies_file:
 with open("movies.tab.txt","w",encoding="UTF8") as csv_movies_file:
     for value in stapel.values():
         csv_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
+
+def export_sdf():
+    pass
+
+
+def export_xml():
+    pass

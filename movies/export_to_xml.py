@@ -79,5 +79,5 @@ if __name__ == "__main__":
 	out = pretty_print_xml_elementtree(data)
 
 
-	with open("testjes.xml", "w", encoding="UTF8") as xml_file:
+	with open("xml_export.xml", "w", encoding="UTF8") as xml_file:
 	    xml_file.writelines('<?xml version="1.0" encoding="UTF-8"?>\n' + out)
