@@ -3,16 +3,22 @@
 import xml.etree.ElementTree as ET
 
 
-# personen: dict = {
-# 				"persoon1":
-# 					{"nummer":1,"voornaam":"bugs","achternaam":"bunny"},
-# 				"peroon2":
-# 					{"nummer":2,"voornaam":"daffy","achternaam":"duck"}
-# 				}
+personen: dict = {
+				"persoon1":
+					{"nummer":1,"voornaam":"bugs","achternaam":"bunny"},
+				"peroon2":
+					{"nummer":2,"voornaam":"daffy","achternaam":"duck"}
+				}
 
-# for i in personen:
-# 	print(personen[i])
-# 	print()
+for i in personen:
+	print(personen[i])
+	print()
+
+
+
+
+
+
 
 
 def data_to_xml():
