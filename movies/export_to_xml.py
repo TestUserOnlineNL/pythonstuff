@@ -12,7 +12,7 @@ personen: dict = {
 
 for i in personen:
 	print(personen[i])
-	print()
+	print(i)
 
 
 
