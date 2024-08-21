@@ -15,4 +15,3 @@ with open('bier.json') as json_file:
         print(i)
         for k,l in j.items():
             print(k,"->",l)
-     
