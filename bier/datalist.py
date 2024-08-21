@@ -17,13 +17,13 @@ def column_stuffing(data, data_width):
 	dw = len(data)
 	f = cw - dw
 	if f >= 0:
-	    return col_fill[0:f]+data
+		return col_fill[0:f]+data
 	else:
 		return "Error"
 
 
 # read csv file
-with open("movies.csv","r",encoding="UTF8") as test_data:
+with open("/home/pi/GitHub/pythonstuff/bier/test_data.csv","r",encoding="UTF8") as test_data:
 
 	for line in test_data:
 		line_list = line.split(",")
