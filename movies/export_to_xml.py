@@ -11,15 +11,9 @@ personen: dict = {
 				}
 
 for i in personen:
-	print(personen[i])
 	print(i)
-
-
-
-
-
-
-
+	print(personen[i])
+	
 
 def data_to_xml():
 
