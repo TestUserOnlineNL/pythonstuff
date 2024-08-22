@@ -23,18 +23,6 @@ def csv_max_data_width():
     return columns
 
 
-# fill-up row data
-def column_stuffing(data, data_width):
-    col_fill = " " * data_width
-    cw = len(col_fill)
-    dw = len(data)
-    f = cw - dw
-    if f >= 0:
-        return col_fill[0:f] + data
-    else:
-        return "Error"
-
-
 # fixed column width
 def column_fixing():
     with open(csv_file, "r", encoding="UTF8") as test_data:
@@ -44,7 +32,7 @@ def column_fixing():
             samen = ""
             i = 0
             while i < len(sizes):
-                uit = column_stuffing(schoon[i], sizes[i])
+                uit = schoon[i].ljust(sizes[i]," ")
                 i += 1
                 samen = samen + uit
             print(samen)
