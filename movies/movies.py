@@ -1,12 +1,15 @@
+# imports
 import json
 import re as rgx
+from dicttoxml import dicttoxml
+from xml.dom.minidom import parseString
 
 
+# headers / field names
 cols = ["id","title","year"]
 
 
 # read data from file
-
 filename = r"movies_data.txt"
 regex = r"^(.+)\s\(([0-9]+)\)$"
 ln = 0
@@ -26,7 +29,6 @@ with open(filename,"r",encoding="UTF8") as data_in:
             collection.append(filtered_line)
 
 # process data from memory
-
 r = 0; stapel = {}
 while r < len(collection):
     test = collection[r]
@@ -52,13 +54,20 @@ with open("movies.csv","w",encoding="UTF8") as csv_movies_file:
 
 
 # export to tab delimited file
-with open("movies.tab.txt","w",encoding="UTF8") as csv_movies_file:
+with open("movies.tab","w",encoding="UTF8") as tab_movies_file:
     for value in stapel.values():
-        csv_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
+        tab_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
+
+
+# export to xml file
+def export_xml(kv):
+    xml = dicttoxml(kv, custom_root='movies',ids = False, attr_type = False, return_bytes=False)
+    dom = parseString(xml)
+    with open("movies.xml","w",encoding="UTF8") as xml_movies_file:
+        xml_movies_file.writelines(dom.toprettyxml())
+
+export_xml(stapel)
+
 
 def export_sdf():
-    pass
-
-
-def export_xml():
     pass
