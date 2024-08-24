@@ -60,13 +60,11 @@ with open("movies.tab","w",encoding="UTF8") as tab_movies_file:
 
 
 # export to xml file
-def export_xml(kv):
-    xml = dicttoxml(kv, custom_root='movies',ids = False, attr_type = False, return_bytes=False)
+def export_xml():
+    xml = dicttoxml(stapel, custom_root='movies',ids = False, attr_type = False, return_bytes=False)
     dom = parseString(xml)
     with open("movies.xml","w",encoding="UTF8") as xml_movies_file:
         xml_movies_file.writelines(dom.toprettyxml())
-
-export_xml(stapel)
 
 
 def export_sdf():
