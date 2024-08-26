@@ -1,8 +1,5 @@
 import csv
 
-# Setting column widths
-columns = [0] * 3
-
 # CSV file path
 csv_file = "/home/pi/GitHub/pythonstuff/bier/test.csv"
 
@@ -17,7 +14,7 @@ def get_max_data_width(csv_file):
         list: A list containing the maximum widths for each column.
     """
 
-    max_widths = [0] * len(columns)
+    max_widths = [0] * 3
     try:
         with open(csv_file, "r", encoding="UTF8") as csv_file:
             csv_reader = csv.reader(csv_file)
