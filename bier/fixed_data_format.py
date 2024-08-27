@@ -6,23 +6,23 @@ def columns_width(bieren):
     for row in bieren:
         for i, item in enumerate(row):
             columns[i] = max(columns[i],len(str(item)))
-        
     return columns
 
 
-def columns_data(bieren,max_width):
-    data_store = []
+def columns_fixing(bieren,max_width):
+    store = []
     for row in bieren:
         regel = ""
         for i, item in enumerate(row):
             text = str(item).ljust(max_width[i])
             regel = regel + text
-        data_store.append(regel)
-    return data_store
+        store.append(regel)
+    return store
+
 
 def show_fixed_data():
     sizes = columns_width(biermerken)
-    fixed_data = columns_data(biermerken,sizes)
+    fixed_data = columns_fixing(biermerken,sizes)
 
     for textline in fixed_data:
         print(textline)
