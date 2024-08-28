@@ -1,50 +1,33 @@
 # imports
 import json
-import re as rgx
 from dicttoxml import dicttoxml
 from xml.dom.minidom import parseString
 
 
-# headers / field names
-cols = ["id","title","year"]
-
-
-# read data from file
+# setting things ready
 filename = r"movies_data.txt"
-regex = r"^(.+)\s\(([0-9]+)\)$"
-ln = 0
+cols = ["id","title","year"]
 collection = []
 
+# read data from file
 with open(filename,"r",encoding="UTF8") as data_in:
-    for data_line in data_in:
-        ln = ln + 1
-        filtered_line = rgx.split(regex, data_line)
-        if(len(filtered_line) == 4):
-            line_out = ([ln,filtered_line[1],int(filtered_line[2])])
-            collection.append(line_out)
+    for ln, data_line in enumerate(data_in, 1):
+        filtered_line = [ln] + data_line.rstrip(')\n').split(' (')
+        if(len(filtered_line) == 3):
+            collection.append(filtered_line)
         else:
-            filtered_line.insert(0,ln)
-            filtered_line[1] = filtered_line[1].strip()
-            filtered_line.insert(2,0)
+            filtered_line.append("---ERROR---")
             collection.append(filtered_line)
 
-# process data from memory
-r = 0; stapel = {}
-while r < len(collection):
-    test = collection[r]
-    
-    v = 0; coll = {};
-    while v < len(test):
-        coll[cols[v]] = test[v]
-        v = v + 1
- 
-    movie = "movie" + str(r + 1)
-    stapel[movie] = coll
-    r = r + 1
+# convert list to dictionary
+stapel = {}
+for r,row in enumerate(collection, 1):
+    coll = {};
+    for v,element in enumerate(row):
+        coll[cols[v]] = row[v]
 
-# export to json file
-with open("movies.json","w",encoding="UTF8") as json_movies_file:
-    json.dump(stapel, json_movies_file, indent = 4 )
+    movie = "movie" + str(r)
+    stapel[movie] = coll
 
 
 # export to csv file
@@ -59,15 +42,20 @@ with open("movies.tab","w",encoding="UTF8") as tab_movies_file:
         tab_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
 
 
+# export to sdf
+#
+
+
+# export to json file
+with open("movies.json","w",encoding="UTF8") as json_movies_file:
+    json.dump(stapel, json_movies_file, indent = 4 )
+
+
 # export to xml file
 with open("movies.xml","w",encoding="UTF8") as xml_movies_file:
     xml = dicttoxml(stapel, custom_root='movies',ids = False, attr_type = False, return_bytes=False)
     dom = parseString(xml)
     xml_movies_file.writelines(dom.toprettyxml())
-
-
-# export to sdf
-#
 
 
 #export to database
