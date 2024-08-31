@@ -54,7 +54,7 @@ def columns_fixing(data_in,max_width):
     return store
 
 
-def export_to_fixed_width_format(data_in):
+def export_to_fwf(data_in):
     sizes = columns_width(data_in)
     fixed_data = columns_fixing(data_in,sizes)
     with open("movies.fwf.txt","w",encoding="UTF8") as output:
@@ -93,7 +93,7 @@ def export_to_xml(data_in):
 
 processed = import_text_data(data_file, column_names)
 
-export_to_fixed_width_format(collection)
+export_to_fwf(collection)
 export_to_csv(collection)
 export_to_tab(collection)
 export_to_json(processed)
