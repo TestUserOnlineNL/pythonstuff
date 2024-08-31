@@ -59,21 +59,22 @@ def export_to_fixed_width_format(data_in):
     fixed_data = columns_fixing(data_in,sizes)
     with open("movies.fwf.txt","w",encoding="UTF8") as output:
         for line in fixed_data:
-            output.writelines(f'{line}\n')
+            output.writelines(f'{line}\n'.split())
 
 
 # export to csv file
 def export_to_csv(data_in):
     with open("movies.csv","w",encoding="UTF8") as csv_movies_file:
-        for value in data_in.values():
-            csv_movies_file.writelines(f'{value["id"]},"{value["title"]}",{value["year"]}\n')
+        for i, row in enumerate(data_in):
+            csv_movies_file.writelines(f'{str(row[0])},"{row[1]}",{row[2]}\n')
 
 
 # export to tab delimited file
 def export_to_tab(data_in):
     with open("movies.tab.txt","w",encoding="UTF8") as tab_movies_file:
-        for value in data_in.values():
-            tab_movies_file.writelines(f'{value["id"]}\t"{value["title"]}"\t{value["year"]}\n')
+        for i, row in enumerate(data_in):
+            tab_movies_file.writelines(f'{str(row[0])}\t"{row[1]}"\t{row[2]}\n')
+
 
 
 # export to json file
@@ -93,7 +94,7 @@ def export_to_xml(data_in):
 processed = import_text_data(data_file, column_names)
 
 export_to_fixed_width_format(collection)
-export_to_csv(processed)
-export_to_tab(processed)
+export_to_csv(collection)
+export_to_tab(collection)
 export_to_json(processed)
 export_to_xml(processed)
