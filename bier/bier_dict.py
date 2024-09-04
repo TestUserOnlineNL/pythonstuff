@@ -6,7 +6,7 @@
 import json
 
 # Opening JSON file
-with open('bier.json') as json_file:
+with open(./'bier.json') as json_file:
     data = json.load(json_file)
 
 
