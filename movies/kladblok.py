@@ -9,6 +9,7 @@ data_file = r"movies_data.txt"
 column_names = ["id", "title", "year"]
 collection = []
 
+
 def import_text_data(filename, cols):
     # read data from file
     with open(filename, "r", encoding="UTF8") as data_in:
@@ -20,16 +21,25 @@ def import_text_data(filename, cols):
                 filtered_line.append("---ERROR---")
                 collection.append(filtered_line)
 
-    # convert list to dictionary in memory
-    stapel = {}
-    for r, row in enumerate(collection, 1):
-        coll = {}
-        for v, element in enumerate(row):
-            coll[cols[v]] = row[v]
 
-        movie = "movie" + str(r)
-        stapel[movie] = coll
-    return stapel
+# combining two lists to a dictionary
+def two_lists_to_dict(list1=[], list2=[]):
+    resultDict = {}
+    if len(list1) == len(list2):
+        for n, f in enumerate(list1):
+            resultDict.update({f: list2[n]})
+
+    return resultDict
+
+
+# transform list to dictionary
+def transform_list_to_dict():
+    kv = dict()
+    for i,rule in enumerate(collection,1):
+        hk = f"movie{i}"
+        kv[hk] = two_lists_to_dict(column_names,rule)
+
+    return kv
 
 
 # export to fixed width format
@@ -58,7 +68,7 @@ def export_to_fwf(data_in):
     fixed_data = columns_fixing(data_in, sizes)
     with open("movies.fwf.txt", "w", encoding="UTF8") as output:
         for line in fixed_data:
-            output.writelines(f'{line}\n'.split())
+            output.writelines(f'{line}\n')
 
 
 # export to csv file
@@ -88,10 +98,11 @@ def export_to_xml(data_in):
         xml_movies_file.writelines(dom.toprettyxml())
 
 
-processed = import_text_data(data_file, column_names)
+if __name__ == '__main__':
 
-export_to_fwf(collection)
-export_to_csv(collection)
-export_to_tab(collection)
-export_to_json(processed)
-export_to_xml(processed)
+    import_text_data(data_file,column_names)
+    export_to_fwf(collection)
+    export_to_csv(collection)
+    export_to_tab(collection)
+    export_to_json(transform_list_to_dict())
+    export_to_xml(transform_list_to_dict())
