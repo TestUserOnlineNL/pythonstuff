@@ -21,3 +21,7 @@ while r < len(items):
 
 with open("bier.json","w",encoding="UTF8") as bier_file:
     json.dump(stapel, bier_file, indent = 4 )
+
+###
+bier_data = items[0]
+print([fv for fv in zip(labels,bier_data)])
