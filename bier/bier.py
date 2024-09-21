@@ -2,7 +2,7 @@ import json
 
 
 labels = ["id","naam","aantal","verbruik"]
-items = [[1,"amstel pilsener",6,0],[2,"heineken premium plisener",5,1],[3,"bavaria",4,2],[4,"klok",0,6],[5,"lander bräu premium",6,0],[6,"grolsch premium pilsner",6,0]]
+items = [[1,"amstel pilsener",6,0],[2,"heineken premium pilsener",5,1],[3,"bavaria",4,2],[4,"klok",0,6],[5,"lander bräu premium",6,0],[6,"grolsch premium pilsner",6,0]]
 
 
 r = 0; stapel = {}
