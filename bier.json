@@ -1,0 +1,38 @@
+{
+    "bier1": {
+        "id": 1,
+        "naam": "amstel pilsener",
+        "aantal": 6,
+        "verbruik": 0
+    },
+    "bier2": {
+        "id": 2,
+        "naam": "heineken premium plisener",
+        "aantal": 5,
+        "verbruik": 1
+    },
+    "bier3": {
+        "id": 3,
+        "naam": "bavaria",
+        "aantal": 4,
+        "verbruik": 2
+    },
+    "bier4": {
+        "id": 4,
+        "naam": "klok",
+        "aantal": 0,
+        "verbruik": 6
+    },
+    "bier5": {
+        "id": 5,
+        "naam": "lander br\u00e4u premium",
+        "aantal": 6,
+        "verbruik": 0
+    },
+    "bier6": {
+        "id": 6,
+        "naam": "grolsch premium pilsner",
+        "aantal": 6,
+        "verbruik": 0
+    }
+}
