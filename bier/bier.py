@@ -19,7 +19,7 @@ while r < len(items):
     r = r + 1
 
 
-with open("bier.json","w",encoding="UTF8") as bier_file:
+with open("./bier/bier.json","w",encoding="UTF8") as bier_file:
     json.dump(stapel, bier_file, indent = 4 )
 
 ###

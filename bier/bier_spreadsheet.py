@@ -1,6 +1,6 @@
 # bier_spreadsheet.py
 dict_sheet_row = {}
-with open('./bier.csv') as csv_file:
+with open('./bier/bier.csv') as csv_file:
 	for ln,line in enumerate(csv_file,1):
 		
 		mylist=(line.strip("\n").split(","))
