@@ -693,7 +693,7 @@
 	<movie139>
 		<id>139</id>
 		<title>Descendants 3</title>
-		<year>2019</year>
+		<year>2019) </year>
 	</movie139>
 	<movie140>
 		<id>140</id>
@@ -3165,4 +3165,424 @@
 		<title>The Fable: The Killer Who Doesn't Kill</title>
 		<year>2021</year>
 	</movie633>
+	<movie634>
+		<id>634</id>
+		<title>The Kill Room</title>
+		<year>2023</year>
+	</movie634>
+	<movie635>
+		<id>635</id>
+		<title>My Summer Prince</title>
+		<year>2016</year>
+	</movie635>
+	<movie636>
+		<id>636</id>
+		<title>A Merry Christmas Wish</title>
+		<year>2022</year>
+	</movie636>
+	<movie637>
+		<id>637</id>
+		<title>Atlas</title>
+		<year>2024</year>
+	</movie637>
+	<movie638>
+		<id>638</id>
+		<title>Thunder Force</title>
+		<year>2021</year>
+	</movie638>
+	<movie639>
+		<id>639</id>
+		<title>The Devil Wears Prada</title>
+		<year>2006</year>
+	</movie639>
+	<movie640>
+		<id>640</id>
+		<title>Footloose</title>
+		<year>1984</year>
+	</movie640>
+	<movie641>
+		<id>641</id>
+		<title>The Throw Aways</title>
+		<year>2015</year>
+	</movie641>
+	<movie642>
+		<id>642</id>
+		<title>Point Blank</title>
+		<year>2019</year>
+	</movie642>
+	<movie643>
+		<id>643</id>
+		<title>Godzilla Minus One</title>
+		<year>2023</year>
+	</movie643>
+	<movie644>
+		<id>644</id>
+		<title>Real Steal</title>
+		<year>2011</year>
+	</movie644>
+	<movie645>
+		<id>645</id>
+		<title>The Huntsman: Winter's War</title>
+		<year>2016</year>
+	</movie645>
+	<movie646>
+		<id>646</id>
+		<title>The Last Witch Hunter</title>
+		<year>2015</year>
+	</movie646>
+	<movie647>
+		<id>647</id>
+		<title>Nocturnal Animals</title>
+		<year>2016</year>
+	</movie647>
+	<movie648>
+		<id>648</id>
+		<title>Sniper: G.R.I.T</title>
+		<year>2023</year>
+	</movie648>
+	<movie649>
+		<id>649</id>
+		<title>Jack Reacher: Never Go Back</title>
+		<year>2016</year>
+	</movie649>
+	<movie650>
+		<id>650</id>
+		<title>Secretary</title>
+		<year>2002</year>
+	</movie650>
+	<movie651>
+		<id>651</id>
+		<title>Spanglish</title>
+		<year>2004</year>
+	</movie651>
+	<movie652>
+		<id>652</id>
+		<title>A Family Affair</title>
+		<year>2024</year>
+	</movie652>
+	<movie653>
+		<id>653</id>
+		<title>Jack Reacher</title>
+		<year>2012</year>
+	</movie653>
+	<movie654>
+		<id>654</id>
+		<title>Trigger Warning</title>
+		<year>2024</year>
+	</movie654>
+	<movie655>
+		<id>655</id>
+		<title>Appleseed Alpha</title>
+		<year>2014</year>
+	</movie655>
+	<movie656>
+		<id>656</id>
+		<title>Carter</title>
+		<year>2022</year>
+	</movie656>
+	<movie657>
+		<id>657</id>
+		<title>Yaksha: Ruthless Operation</title>
+		<year>2022</year>
+	</movie657>
+	<movie658>
+		<id>658</id>
+		<title>The Peacemaker</title>
+		<year>1997</year>
+	</movie658>
+	<movie659>
+		<id>659</id>
+		<title>Night in Paradise</title>
+		<year>2020</year>
+	</movie659>
+	<movie660>
+		<id>660</id>
+		<title>Revenger</title>
+		<year>2018</year>
+	</movie660>
+	<movie661>
+		<id>661</id>
+		<title>Wonderland</title>
+		<year>2024</year>
+	</movie661>
+	<movie662>
+		<id>662</id>
+		<title>Mission Cross</title>
+		<year>2024</year>
+	</movie662>
+	<movie663>
+		<id>663</id>
+		<title>#Alive</title>
+		<year>2020</year>
+	</movie663>
+	<movie664>
+		<id>664</id>
+		<title>The Call</title>
+		<year>2020</year>
+	</movie664>
+	<movie665>
+		<id>665</id>
+		<title>Madame Web</title>
+		<year>2024</year>
+	</movie665>
+	<movie666>
+		<id>666</id>
+		<title>Law Abiding Citizen</title>
+		<year>2009</year>
+	</movie666>
+	<movie667>
+		<id>667</id>
+		<title>Ex_Machina</title>
+		<year>2015</year>
+	</movie667>
+	<movie668>
+		<id>668</id>
+		<title>The Union</title>
+		<year>2024</year>
+	</movie668>
+	<movie669>
+		<id>669</id>
+		<title>The Flash</title>
+		<year>2023</year>
+	</movie669>
+	<movie670>
+		<id>670</id>
+		<title>The Other Woman</title>
+		<year>2014</year>
+	</movie670>
+	<movie671>
+		<id>671</id>
+		<title>How to Lose a Guy in 10 Days</title>
+		<year>2003</year>
+	</movie671>
+	<movie672>
+		<id>672</id>
+		<title>The Darkest Minds</title>
+		<year>2018</year>
+	</movie672>
+	<movie673>
+		<id>673</id>
+		<title>Rebel Ridge</title>
+		<year>2024</year>
+	</movie673>
+	<movie674>
+		<id>674</id>
+		<title>Incoming</title>
+		<year>2024</year>
+	</movie674>
+	<movie675>
+		<id>675</id>
+		<title>What Happened to Mr. Cha?</title>
+		<year>2021</year>
+	</movie675>
+	<movie676>
+		<id>676</id>
+		<title>Officer Black Belt</title>
+		<year>2024</year>
+	</movie676>
+	<movie677>
+		<id>677</id>
+		<title>Uglies</title>
+		<year>2024</year>
+	</movie677>
+	<movie678>
+		<id>678</id>
+		<title>Dungeons &amp; Dragons: Honor Among Thieves</title>
+		<year>2023</year>
+	</movie678>
+	<movie679>
+		<id>679</id>
+		<title>Hitman: Agent 47</title>
+		<year>2015</year>
+	</movie679>
+	<movie680>
+		<id>680</id>
+		<title>Ghostbusters: Frozen Empire</title>
+		<year>2024</year>
+	</movie680>
+	<movie681>
+		<id>681</id>
+		<title>The Predator</title>
+		<year>2018</year>
+	</movie681>
+	<movie682>
+		<id>682</id>
+		<title>The Bricklayer</title>
+		<year>2023</year>
+	</movie682>
+	<movie683>
+		<id>683</id>
+		<title>Strul</title>
+		<year>2024</year>
+	</movie683>
+	<movie684>
+		<id>684</id>
+		<title>Sting</title>
+		<year>2024</year>
+	</movie684>
+	<movie685>
+		<id>685</id>
+		<title>Meet Me Next Christmas</title>
+		<year>2024</year>
+	</movie685>
+	<movie686>
+		<id>686</id>
+		<title>Hot Frosty</title>
+		<year>2024</year>
+	</movie686>
+	<movie687>
+		<id>687</id>
+		<title>Christmas Time Is Here</title>
+		<year>2021</year>
+	</movie687>
+	<movie688>
+		<id>688</id>
+		<title>Alita: Battle Angel</title>
+		<year>2019</year>
+	</movie688>
+	<movie689>
+		<id>689</id>
+		<title>Blue Beetle</title>
+		<year>2023</year>
+	</movie689>
+	<movie690>
+		<id>690</id>
+		<title>Breathe</title>
+		<year>2024</year>
+	</movie690>
+	<movie691>
+		<id>691</id>
+		<title>Christmas at the Drive-In</title>
+		<year>2022</year>
+	</movie691>
+	<movie692>
+		<id>692</id>
+		<title>The Merry Gentlemen</title>
+		<year>2024</year>
+	</movie692>
+	<movie693>
+		<id>693</id>
+		<title>I'm Glad it's Chrismas</title>
+		<year>2022</year>
+	</movie693>
+	<movie694>
+		<id>694</id>
+		<title>Deck the Halls</title>
+		<year>2006</year>
+	</movie694>
+	<movie695>
+		<id>695</id>
+		<title>Little Italy</title>
+		<year>2018</year>
+	</movie695>
+	<movie696>
+		<id>696</id>
+		<title>12 Days of Giving</title>
+		<year>2017</year>
+	</movie696>
+	<movie697>
+		<id>697</id>
+		<title>Our Little Secret</title>
+		<year>2024</year>
+	</movie697>
+	<movie698>
+		<id>698</id>
+		<title>A Royal Date for Christmas</title>
+		<year>2023</year>
+	</movie698>
+	<movie699>
+		<id>699</id>
+		<title>Christmas on Windmill Way</title>
+		<year>2023</year>
+	</movie699>
+	<movie700>
+		<id>700</id>
+		<title>Spy</title>
+		<year>2015</year>
+	</movie700>
+	<movie701>
+		<id>701</id>
+		<title>Carry-On</title>
+		<year>2024</year>
+	</movie701>
+	<movie702>
+		<id>702</id>
+		<title>Twas the Text Before Christmas</title>
+		<year>2023</year>
+	</movie702>
+	<movie703>
+		<id>703</id>
+		<title>Bringing Christmas Home</title>
+		<year>2023</year>
+	</movie703>
+	<movie704>
+		<id>704</id>
+		<title>Swing into Romance</title>
+		<year>2023</year>
+	</movie704>
+	<movie705>
+		<id>705</id>
+		<title>Transformers: Rise of the Beasts</title>
+		<year>2023</year>
+	</movie705>
+	<movie706>
+		<id>706</id>
+		<title>A Paris Christmas Waltz</title>
+		<year>2023</year>
+	</movie706>
+	<movie707>
+		<id>707</id>
+		<title>Barefoot</title>
+		<year>2014</year>
+	</movie707>
+	<movie708>
+		<id>708</id>
+		<title>Accident Man: Hitman's Holiday</title>
+		<year>2022</year>
+	</movie708>
+	<movie709>
+		<id>709</id>
+		<title>Terminator: Dark Fate</title>
+		<year>2019</year>
+	</movie709>
+	<movie710>
+		<id>710</id>
+		<title>The Shadow Strays</title>
+		<year>2024</year>
+	</movie710>
+	<movie711>
+		<id>711</id>
+		<title>Carriers</title>
+		<year>2009</year>
+	</movie711>
+	<movie712>
+		<id>712</id>
+		<title>Back in Action</title>
+		<year>2025</year>
+	</movie712>
+	<movie713>
+		<id>713</id>
+		<title>Meet Dave</title>
+		<year>2008</year>
+	</movie713>
+	<movie714>
+		<id>714</id>
+		<title>The Mechanic: Resurrection</title>
+		<year>2016</year>
+	</movie714>
+	<movie715>
+		<id>715</id>
+		<title>Bogota: City of the Lost</title>
+		<year>2025</year>
+	</movie715>
+	<movie716>
+		<id>716</id>
+		<title>Kinda Pregnant</title>
+		<year>2025</year>
+	</movie716>
+	<movie717>
+		<id>717</id>
+		<title>La Dolce Villa</title>
+		<year>2025</year>
+	</movie717>
 </movies>

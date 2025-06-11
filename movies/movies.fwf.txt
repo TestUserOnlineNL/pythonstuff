@@ -136,7 +136,7 @@
 136The Other Guys                                          2010       
 137My Perfect Romance                                      2018       
 138Pokémon Detective Pikachu                               2019       
-139Descendants 3                                           2019       
+139Descendants 3                                           2019)      
 140Like Father                                             2018       
 141The Giver                                               2014       
 142Destination Wedding                                     2018       
@@ -631,3 +631,87 @@
 631The Fable                                               2019       
 632Golden Kamuy                                            2024       
 633The Fable: The Killer Who Doesn't Kill                  2021       
+634The Kill Room                                           2023       
+635My Summer Prince                                        2016       
+636A Merry Christmas Wish                                  2022       
+637Atlas                                                   2024       
+638Thunder Force                                           2021       
+639The Devil Wears Prada                                   2006       
+640Footloose                                               1984       
+641The Throw Aways                                         2015       
+642Point Blank                                             2019       
+643Godzilla Minus One                                      2023       
+644Real Steal                                              2011       
+645The Huntsman: Winter's War                              2016       
+646The Last Witch Hunter                                   2015       
+647Nocturnal Animals                                       2016       
+648Sniper: G.R.I.T                                         2023       
+649Jack Reacher: Never Go Back                             2016       
+650Secretary                                               2002       
+651Spanglish                                               2004       
+652A Family Affair                                         2024       
+653Jack Reacher                                            2012       
+654Trigger Warning                                         2024       
+655Appleseed Alpha                                         2014       
+656Carter                                                  2022       
+657Yaksha: Ruthless Operation                              2022       
+658The Peacemaker                                          1997       
+659Night in Paradise                                       2020       
+660Revenger                                                2018       
+661Wonderland                                              2024       
+662Mission Cross                                           2024       
+663#Alive                                                  2020       
+664The Call                                                2020       
+665Madame Web                                              2024       
+666Law Abiding Citizen                                     2009       
+667Ex_Machina                                              2015       
+668The Union                                               2024       
+669The Flash                                               2023       
+670The Other Woman                                         2014       
+671How to Lose a Guy in 10 Days                            2003       
+672The Darkest Minds                                       2018       
+673Rebel Ridge                                             2024       
+674Incoming                                                2024       
+675What Happened to Mr. Cha?                               2021       
+676Officer Black Belt                                      2024       
+677Uglies                                                  2024       
+678Dungeons & Dragons: Honor Among Thieves                 2023       
+679Hitman: Agent 47                                        2015       
+680Ghostbusters: Frozen Empire                             2024       
+681The Predator                                            2018       
+682The Bricklayer                                          2023       
+683Strul                                                   2024       
+684Sting                                                   2024       
+685Meet Me Next Christmas                                  2024       
+686Hot Frosty                                              2024       
+687Christmas Time Is Here                                  2021       
+688Alita: Battle Angel                                     2019       
+689Blue Beetle                                             2023       
+690Breathe                                                 2024       
+691Christmas at the Drive-In                               2022       
+692The Merry Gentlemen                                     2024       
+693I'm Glad it's Chrismas                                  2022       
+694Deck the Halls                                          2006       
+695Little Italy                                            2018       
+69612 Days of Giving                                       2017       
+697Our Little Secret                                       2024       
+698A Royal Date for Christmas                              2023       
+699Christmas on Windmill Way                               2023       
+700Spy                                                     2015       
+701Carry-On                                                2024       
+702Twas the Text Before Christmas                          2023       
+703Bringing Christmas Home                                 2023       
+704Swing into Romance                                      2023       
+705Transformers: Rise of the Beasts                        2023       
+706A Paris Christmas Waltz                                 2023       
+707Barefoot                                                2014       
+708Accident Man: Hitman's Holiday                          2022       
+709Terminator: Dark Fate                                   2019       
+710The Shadow Strays                                       2024       
+711Carriers                                                2009       
+712Back in Action                                          2025       
+713Meet Dave                                               2008       
+714The Mechanic: Resurrection                              2016       
+715Bogota: City of the Lost                                2025       
+716Kinda Pregnant                                          2025       
+717La Dolce Villa                                          2025       

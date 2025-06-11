@@ -692,7 +692,7 @@
     "movie139": {
         "id": 139,
         "title": "Descendants 3",
-        "year": "2019"
+        "year": "2019) "
     },
     "movie140": {
         "id": 140,
@@ -3163,5 +3163,425 @@
         "id": 633,
         "title": "The Fable: The Killer Who Doesn't Kill",
         "year": "2021"
+    },
+    "movie634": {
+        "id": 634,
+        "title": "The Kill Room",
+        "year": "2023"
+    },
+    "movie635": {
+        "id": 635,
+        "title": "My Summer Prince",
+        "year": "2016"
+    },
+    "movie636": {
+        "id": 636,
+        "title": "A Merry Christmas Wish",
+        "year": "2022"
+    },
+    "movie637": {
+        "id": 637,
+        "title": "Atlas",
+        "year": "2024"
+    },
+    "movie638": {
+        "id": 638,
+        "title": "Thunder Force",
+        "year": "2021"
+    },
+    "movie639": {
+        "id": 639,
+        "title": "The Devil Wears Prada",
+        "year": "2006"
+    },
+    "movie640": {
+        "id": 640,
+        "title": "Footloose",
+        "year": "1984"
+    },
+    "movie641": {
+        "id": 641,
+        "title": "The Throw Aways",
+        "year": "2015"
+    },
+    "movie642": {
+        "id": 642,
+        "title": "Point Blank",
+        "year": "2019"
+    },
+    "movie643": {
+        "id": 643,
+        "title": "Godzilla Minus One",
+        "year": "2023"
+    },
+    "movie644": {
+        "id": 644,
+        "title": "Real Steal",
+        "year": "2011"
+    },
+    "movie645": {
+        "id": 645,
+        "title": "The Huntsman: Winter's War",
+        "year": "2016"
+    },
+    "movie646": {
+        "id": 646,
+        "title": "The Last Witch Hunter",
+        "year": "2015"
+    },
+    "movie647": {
+        "id": 647,
+        "title": "Nocturnal Animals",
+        "year": "2016"
+    },
+    "movie648": {
+        "id": 648,
+        "title": "Sniper: G.R.I.T",
+        "year": "2023"
+    },
+    "movie649": {
+        "id": 649,
+        "title": "Jack Reacher: Never Go Back",
+        "year": "2016"
+    },
+    "movie650": {
+        "id": 650,
+        "title": "Secretary",
+        "year": "2002"
+    },
+    "movie651": {
+        "id": 651,
+        "title": "Spanglish",
+        "year": "2004"
+    },
+    "movie652": {
+        "id": 652,
+        "title": "A Family Affair",
+        "year": "2024"
+    },
+    "movie653": {
+        "id": 653,
+        "title": "Jack Reacher",
+        "year": "2012"
+    },
+    "movie654": {
+        "id": 654,
+        "title": "Trigger Warning",
+        "year": "2024"
+    },
+    "movie655": {
+        "id": 655,
+        "title": "Appleseed Alpha",
+        "year": "2014"
+    },
+    "movie656": {
+        "id": 656,
+        "title": "Carter",
+        "year": "2022"
+    },
+    "movie657": {
+        "id": 657,
+        "title": "Yaksha: Ruthless Operation",
+        "year": "2022"
+    },
+    "movie658": {
+        "id": 658,
+        "title": "The Peacemaker",
+        "year": "1997"
+    },
+    "movie659": {
+        "id": 659,
+        "title": "Night in Paradise",
+        "year": "2020"
+    },
+    "movie660": {
+        "id": 660,
+        "title": "Revenger",
+        "year": "2018"
+    },
+    "movie661": {
+        "id": 661,
+        "title": "Wonderland",
+        "year": "2024"
+    },
+    "movie662": {
+        "id": 662,
+        "title": "Mission Cross",
+        "year": "2024"
+    },
+    "movie663": {
+        "id": 663,
+        "title": "#Alive",
+        "year": "2020"
+    },
+    "movie664": {
+        "id": 664,
+        "title": "The Call",
+        "year": "2020"
+    },
+    "movie665": {
+        "id": 665,
+        "title": "Madame Web",
+        "year": "2024"
+    },
+    "movie666": {
+        "id": 666,
+        "title": "Law Abiding Citizen",
+        "year": "2009"
+    },
+    "movie667": {
+        "id": 667,
+        "title": "Ex_Machina",
+        "year": "2015"
+    },
+    "movie668": {
+        "id": 668,
+        "title": "The Union",
+        "year": "2024"
+    },
+    "movie669": {
+        "id": 669,
+        "title": "The Flash",
+        "year": "2023"
+    },
+    "movie670": {
+        "id": 670,
+        "title": "The Other Woman",
+        "year": "2014"
+    },
+    "movie671": {
+        "id": 671,
+        "title": "How to Lose a Guy in 10 Days",
+        "year": "2003"
+    },
+    "movie672": {
+        "id": 672,
+        "title": "The Darkest Minds",
+        "year": "2018"
+    },
+    "movie673": {
+        "id": 673,
+        "title": "Rebel Ridge",
+        "year": "2024"
+    },
+    "movie674": {
+        "id": 674,
+        "title": "Incoming",
+        "year": "2024"
+    },
+    "movie675": {
+        "id": 675,
+        "title": "What Happened to Mr. Cha?",
+        "year": "2021"
+    },
+    "movie676": {
+        "id": 676,
+        "title": "Officer Black Belt",
+        "year": "2024"
+    },
+    "movie677": {
+        "id": 677,
+        "title": "Uglies",
+        "year": "2024"
+    },
+    "movie678": {
+        "id": 678,
+        "title": "Dungeons & Dragons: Honor Among Thieves",
+        "year": "2023"
+    },
+    "movie679": {
+        "id": 679,
+        "title": "Hitman: Agent 47",
+        "year": "2015"
+    },
+    "movie680": {
+        "id": 680,
+        "title": "Ghostbusters: Frozen Empire",
+        "year": "2024"
+    },
+    "movie681": {
+        "id": 681,
+        "title": "The Predator",
+        "year": "2018"
+    },
+    "movie682": {
+        "id": 682,
+        "title": "The Bricklayer",
+        "year": "2023"
+    },
+    "movie683": {
+        "id": 683,
+        "title": "Strul",
+        "year": "2024"
+    },
+    "movie684": {
+        "id": 684,
+        "title": "Sting",
+        "year": "2024"
+    },
+    "movie685": {
+        "id": 685,
+        "title": "Meet Me Next Christmas",
+        "year": "2024"
+    },
+    "movie686": {
+        "id": 686,
+        "title": "Hot Frosty",
+        "year": "2024"
+    },
+    "movie687": {
+        "id": 687,
+        "title": "Christmas Time Is Here",
+        "year": "2021"
+    },
+    "movie688": {
+        "id": 688,
+        "title": "Alita: Battle Angel",
+        "year": "2019"
+    },
+    "movie689": {
+        "id": 689,
+        "title": "Blue Beetle",
+        "year": "2023"
+    },
+    "movie690": {
+        "id": 690,
+        "title": "Breathe",
+        "year": "2024"
+    },
+    "movie691": {
+        "id": 691,
+        "title": "Christmas at the Drive-In",
+        "year": "2022"
+    },
+    "movie692": {
+        "id": 692,
+        "title": "The Merry Gentlemen",
+        "year": "2024"
+    },
+    "movie693": {
+        "id": 693,
+        "title": "I'm Glad it's Chrismas",
+        "year": "2022"
+    },
+    "movie694": {
+        "id": 694,
+        "title": "Deck the Halls",
+        "year": "2006"
+    },
+    "movie695": {
+        "id": 695,
+        "title": "Little Italy",
+        "year": "2018"
+    },
+    "movie696": {
+        "id": 696,
+        "title": "12 Days of Giving",
+        "year": "2017"
+    },
+    "movie697": {
+        "id": 697,
+        "title": "Our Little Secret",
+        "year": "2024"
+    },
+    "movie698": {
+        "id": 698,
+        "title": "A Royal Date for Christmas",
+        "year": "2023"
+    },
+    "movie699": {
+        "id": 699,
+        "title": "Christmas on Windmill Way",
+        "year": "2023"
+    },
+    "movie700": {
+        "id": 700,
+        "title": "Spy",
+        "year": "2015"
+    },
+    "movie701": {
+        "id": 701,
+        "title": "Carry-On",
+        "year": "2024"
+    },
+    "movie702": {
+        "id": 702,
+        "title": "Twas the Text Before Christmas",
+        "year": "2023"
+    },
+    "movie703": {
+        "id": 703,
+        "title": "Bringing Christmas Home",
+        "year": "2023"
+    },
+    "movie704": {
+        "id": 704,
+        "title": "Swing into Romance",
+        "year": "2023"
+    },
+    "movie705": {
+        "id": 705,
+        "title": "Transformers: Rise of the Beasts",
+        "year": "2023"
+    },
+    "movie706": {
+        "id": 706,
+        "title": "A Paris Christmas Waltz",
+        "year": "2023"
+    },
+    "movie707": {
+        "id": 707,
+        "title": "Barefoot",
+        "year": "2014"
+    },
+    "movie708": {
+        "id": 708,
+        "title": "Accident Man: Hitman's Holiday",
+        "year": "2022"
+    },
+    "movie709": {
+        "id": 709,
+        "title": "Terminator: Dark Fate",
+        "year": "2019"
+    },
+    "movie710": {
+        "id": 710,
+        "title": "The Shadow Strays",
+        "year": "2024"
+    },
+    "movie711": {
+        "id": 711,
+        "title": "Carriers",
+        "year": "2009"
+    },
+    "movie712": {
+        "id": 712,
+        "title": "Back in Action",
+        "year": "2025"
+    },
+    "movie713": {
+        "id": 713,
+        "title": "Meet Dave",
+        "year": "2008"
+    },
+    "movie714": {
+        "id": 714,
+        "title": "The Mechanic: Resurrection",
+        "year": "2016"
+    },
+    "movie715": {
+        "id": 715,
+        "title": "Bogota: City of the Lost",
+        "year": "2025"
+    },
+    "movie716": {
+        "id": 716,
+        "title": "Kinda Pregnant",
+        "year": "2025"
+    },
+    "movie717": {
+        "id": 717,
+        "title": "La Dolce Villa",
+        "year": "2025"
     }
 }
