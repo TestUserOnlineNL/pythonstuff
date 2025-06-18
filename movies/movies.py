@@ -5,7 +5,7 @@ from dicttoxml import dicttoxml
 from xml.dom.minidom import parseString
 
 # setting things ready
-data_file = r"movies_data.txt"
+data_file = r"./movies/movies_data.txt"
 column_names = ["id", "title", "year"]
 collection = []
 
@@ -66,33 +66,33 @@ def columns_fixing(data_in, max_width):
 def export_to_fwf(data_in):
     sizes = columns_width(data_in)
     fixed_data = columns_fixing(data_in, sizes)
-    with open("movies.fwf.txt", "w", encoding="UTF8") as output:
+    with open("./movies/movies.fwf.txt", "w", encoding="UTF8") as output:
         for line in fixed_data:
             output.writelines(f'{line}\n')
 
 
 # export to csv file
 def export_to_csv(data_in):
-    with open("movies.csv", "w", encoding="UTF8") as csv_movies_file:
+    with open("./movies/movies.csv", "w", encoding="UTF8") as csv_movies_file:
         for i, row in enumerate(data_in):
             csv_movies_file.writelines(f'{str(row[0])},"{row[1]}",{row[2]}\n')
 
 
 # export to tab delimited file
 def export_to_tab(data_in):
-    with open("movies.tab.txt", "w", encoding="UTF8") as tab_movies_file:
+    with open("./movies/movies.tab.txt", "w", encoding="UTF8") as tab_movies_file:
         for i, row in enumerate(data_in):
             tab_movies_file.writelines(f'{str(row[0])}\t"{row[1]}"\t{row[2]}\n')
 
 # export to json file
 def export_to_json(data_in):
-    with open("movies.json", "w", encoding="UTF8") as json_movies_file:
+    with open("./movies/movies.json", "w", encoding="UTF8") as json_movies_file:
         json.dump(data_in, json_movies_file, indent=4)
 
 
 # export to xml file
 def export_to_xml(data_in):
-    with open("movies.xml", "w", encoding="UTF8") as xml_movies_file:
+    with open("./movies/movies.xml", "w", encoding="UTF8") as xml_movies_file:
         xml = dicttoxml(data_in, custom_root='movies', ids=False, attr_type=False, return_bytes=False)
         dom = parseString(xml)
         xml_movies_file.writelines(dom.toprettyxml())
